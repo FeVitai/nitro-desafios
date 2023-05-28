@@ -26,11 +26,11 @@ public class InverterSequencia {
 		
 		int[] matriculas = new int [n];
 		
-		for(int i=0; i<matriculas; i++) {
-			
+		for (int i=0; i<matriculas.length; i++) {
+			if (matriculas < ) {
+				
+			}
 		}
-		
-		
 		
 		sc.close();
 	}
