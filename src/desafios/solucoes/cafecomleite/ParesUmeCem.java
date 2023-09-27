@@ -1,4 +1,4 @@
-package desafios.solucoes;
+package desafios.solucoes.cafecomleite;
 
 public class ParesUmeCem {
 

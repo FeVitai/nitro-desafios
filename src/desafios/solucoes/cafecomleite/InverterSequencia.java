@@ -1,4 +1,4 @@
-package desafios.solucoes;
+package desafios.solucoes.cafecomleite;
 
 import java.util.Scanner;
 
@@ -18,20 +18,20 @@ public class InverterSequencia {
 	 * Saída Seu programa deve imprimir uma única linha, contendo a sequência
 	 * correta.
 	 */	
-	public static void main(String[] args) {
-		
-		Scanner sc = new Scanner(System.in);
-		
-		int n = sc.nextInt();
-		
-		int[] matriculas = new int [n];
-		
-		for (int i=0; i<matriculas.length; i++) {
-			if (matriculas < ) {
-				
-			}
-		}
-		
-		sc.close();
-	}
+//	public static void main(String[] args) {
+//		
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int n = sc.nextInt();
+//		
+//		int[] matriculas = new int [n];
+//		
+//		for (int i=0; i<matriculas.length; i++) {
+//			if (matriculas < ) {
+//				
+//			}
+//		}
+//		
+//		sc.close();
+//	}
 }

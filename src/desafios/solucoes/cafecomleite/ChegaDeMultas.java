@@ -1,4 +1,4 @@
-package desafios.solucoes;
+package desafios.solucoes.cafecomleite;
 
 import java.util.Locale;
 import java.util.Scanner;
