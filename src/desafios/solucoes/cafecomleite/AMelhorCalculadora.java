@@ -29,20 +29,20 @@ public class AMelhorCalculadora {
 
 		Scanner sc = new Scanner(System.in);
 
-		char operation = sc.next().charAt(0);
-		float a = sc.nextFloat();
-		float b = sc.nextFloat();
+		char c = sc.next().charAt(0);
 
-		if (operation == '+') {
+		double a = sc.nextDouble();
+		double b = sc.nextDouble();
+
+		if (c == '+') {
 			System.out.printf("%.0f", a + b);
-		} else if (operation == '/') {
+		} else if (c == '/') {
 			System.out.printf("%.1f", a / b);
-		} else if (operation == '-') {
-			System.out.println(a - b);
-		} else if (operation == '*') {
+		} else if (c == '-') {
+			System.out.printf("%.0f", a - b);
+		} else if (c == '*') {
 			System.out.printf("%.0f", a * b);
 		}
-
 		sc.close();
 	}
 
